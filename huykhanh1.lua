@@ -1,61 +1,48 @@
-getgenv().Setting = {
-    ["Team"] = "Pirates",
-    ["Webhook"] = {
-        ["Enable"] = false,
-        ["Url"] = ""
+repeat wait() until game:IsLoaded()
+_G["HoHo Hub Auto Bounty V3"] = {
+    ["Avatar"] = "rbxassetid://8598068647",
+    ["Farm Method"] = "Normal", 
+    ["Select Team"] = "Pirate", 
+    ["Discord Webhook"] = "",
+    ["Bypass Teleport"] = true,
+    ["Max Level Distance"] = 612, 
+    ["Don't attack friends"] = true,
+    ["Don't attack player have cup"] = false,
+    ["Distance Attack Y"] = 6, 
+    ["Chat After Kill"] = {
+        ["Active"] = true,
+        ["List Chat"] = {"i have a good gaming chair","No skill? Use Hoho hub"},
     },
-    ["Skip"] = {
-        ["Race V4"] = true,
+    ["Yourself"] = {
+        ["Invisible From Ken"] = true,
+        ["No Stun"] = true,
+    },
+    ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 40, ["Wait Until Heal (%)"] = 90},
+    ["Time Control"] = {
+        ["Max Time Target Player"] = 120,
+    },
+    ["Abilities"] = {
+        ["Auto Click"] = true,
+        ["Melee"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Sword"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Gun"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
         ["Fruit"] = {
-            "Leopard-Leopard",
-            "Venom-Venom",
-            "Dough-Dough",
-            "Portal-Portal"
-        }
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            V = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            F = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
     },
-    ["Chat"] = {
-        ["Enabled"] = false,
-        ["Content"] = {""},
-    },
-    ["Misc"] = {
-        ["Lock Bounty"] = {0, 30000000},
-        ["Hide If Low Health"] = true,
-        ["Hide Health"] = {4000,5000},
-        ["Lock Camera"] = true,
-        ["FPS Boost"] = false,
-        ["White Screen"] = false,
-        ["Bypass TP"] = true,
-        ["Spam All Skill On V4"] = false,
-        ["Random Fruit & Store"] = true,
-        ["Random Suprise"] = true
-    },
-    ["Melee"] = {
-        ["Enable"] = true,
-        ["Delay"] = 3,
-        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["C"] = {["Enable"] = true, ["Hold Time"] = 0}
-    },
-    ["Fruit"] = {
-        ["Enable"] = true,
-        ["Delay"] = 2,
-        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["C"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["V"] = {["Enable"] = true, ["Hold Time"] = 2},
-        ["F"] = {["Enable"] = false, ["Hold Time"] = 0}
-    },
-    ["Sword"] = {
-        ["Enable"] = false,
-        ["Delay"] = 1,
-        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["X"] = {["Enable"] = true, ["Hold Time"] = 0}
-    },
-    ["Gun"] = {
-        ["Enable"] = false,
-        ["Delay"] = 1,
-        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
-        ["X"] = {["Enable"] = true, ["Hold Time"] = 0}
-    }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vuquocoai123/lua/main/AutoBountyV2Beta"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
