@@ -1,40 +1,61 @@
-getgenv().SpamSkill = false
-getgenv().AutoUseRaceV3 = true
-getgenv().AutoUseRacev4 = true
-getgenv().SpamSkillOnRaceV4 = true
-getgenv().Invisible = true
-getgenv().InCombatNoReset = true
-getgenv().Team = "Pirates" -- Marines
-getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
- getgenv().Setting = { -- Select Weapon, Self Explain
-        ["Melee"] = {["Enable"] = true,["Delay"] = 2,
-          ["Skills"] = {
-            ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["TimeToNextSkill"] = 0,},
-            [ "X"] = {["Enable"] = true,["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
-            ["C"] = {["Enable"] = true,["HoldTime"] = 0.1, ["TimeToNextSkill"] = 0,},
-            },
-        },
-        ["Blox Fruit"] = {["Enable"] = true, ["Delay"] = 1.25,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
-                ["X"] = { ["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
-                ["C"] = { ["Enable"] = true, ["HoldTime"] = 0,["TimeToNextSkill"] = 0, },
-                ["V"] = { ["Enable"] = true, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
-                ["F"] = {["Enable"] = true,["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
-            },
-        },
-        ["Sword"] = { ["Enable"] = false, ["Delay"] = 0.7,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true,  ["HoldTime"] = 0.3,["TimeToNextSkill"] = 0,},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
-            },
-        },
-        ["Gun"] = {["Enable"] = false, ["Delay"] = 2,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
-                ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,
-                },
-            },
+getgenv().Setting = {
+    ["Team"] = "Pirates",
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["Url"] = ""
+    },
+    ["Skip"] = {
+        ["Race V4"] = true,
+        ["Fruit"] = {
+            "Leopard-Leopard",
+            "Venom-Venom",
+            "Dough-Dough",
+            "Portal-Portal"
         }
+    },
+    ["Chat"] = {
+        ["Enabled"] = false,
+        ["Content"] = {""},
+    },
+    ["Misc"] = {
+        ["Lock Bounty"] = {0, 30000000},
+        ["Hide If Low Health"] = true,
+        ["Hide Health"] = {4000,5000},
+        ["Lock Camera"] = true,
+        ["FPS Boost"] = false,
+        ["White Screen"] = false,
+        ["Bypass TP"] = true,
+        ["Spam All Skill On V4"] = false,
+        ["Random Fruit & Store"] = true,
+        ["Random Suprise"] = true
+    },
+    ["Melee"] = {
+        ["Enable"] = true,
+        ["Delay"] = 3,
+        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["C"] = {["Enable"] = true, ["Hold Time"] = 0}
+    },
+    ["Fruit"] = {
+        ["Enable"] = true,
+        ["Delay"] = 2,
+        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["C"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["V"] = {["Enable"] = true, ["Hold Time"] = 2},
+        ["F"] = {["Enable"] = false, ["Hold Time"] = 0}
+    },
+    ["Sword"] = {
+        ["Enable"] = false,
+        ["Delay"] = 1,
+        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["X"] = {["Enable"] = true, ["Hold Time"] = 0}
+    },
+    ["Gun"] = {
+        ["Enable"] = false,
+        ["Delay"] = 1,
+        ["Z"] = {["Enable"] = true, ["Hold Time"] = 0},
+        ["X"] = {["Enable"] = true, ["Hold Time"] = 0}
     }
- loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))()
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vuquocoai123/lua/main/AutoBountyV2Beta"))()
