@@ -1,9 +1,3 @@
-Online Notepad
- Trang chủ
-Đăng Nhập
-Tạo Tài Khoản
-
-auto bounty
 getgenv().SpamSkill = true
 
 getgenv().AutoUseRaceV3 = true
