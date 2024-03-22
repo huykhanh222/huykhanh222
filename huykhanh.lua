@@ -80,7 +80,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/m
 
  
 
-vinhuchi — 18/11/2023 19:18
 
 getgenv().Team = "Pirates"
 
