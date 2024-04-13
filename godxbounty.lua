@@ -25,7 +25,7 @@ getgenv().config = {
             }
         },
         ["Chatkill"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Text"] = {
                 "U suck!"
             }
