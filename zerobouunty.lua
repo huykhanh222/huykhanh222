@@ -4,7 +4,7 @@ getgenv().Configs = {
     ["Auto Buso"] = true,
     ["Auto turn on race v3"] = true,
     ["Auto turn on race v4"] = true,
-    ["FPS Boost"] = true,
+    ["FPS Boost"] = false,
     ["Click Time"] = 0.2,
     ["Bypass TP"] = true,
     ["Chat"] = {
@@ -92,8 +92,8 @@ getgenv().Configs = {
         }
     },
     ["Theme"] = {
-        ["Enable"] = false,
-        ["Name"] = "Hutao", -- Hutao, Raiden, Ayaka, Yelan
+        ["Enable"] = true,
+        ["Name"] = "Ayaka", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
             ["Enable"] = false,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
