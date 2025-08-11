@@ -34,12 +34,21 @@
 ## 🛠️ Languages and Tools
 
 <div align="center">
-  
+
+### Programming Languages
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Development Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### Currently Learning
+![Algorithms](https://img.shields.io/badge/Algorithms-FF6B35?style=for-the-badge&logo=thealgorithms&logoColor=white)
+![Data Structures](https://img.shields.io/badge/Data_Structures-4CAF50?style=for-the-badge&logo=databricks&logoColor=white)
 
 </div>
 
@@ -49,9 +58,16 @@
 
 <div align="center">
   
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=huykhanh222&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=huykhanh222&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+<table>
+<tr>
+<td>
+<img height="195px" src="https://github-readme-stats.vercel.app/api?username=huykhanh222&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
+</td>
+<td>
+<img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=huykhanh222&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -63,30 +79,41 @@
 
 ---
 
-## 🌟 Fun Section
+## 🎯 Coding Activity
 
 <div align="center">
+  
+[![Trần Huy Khánh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=huykhanh222&theme=react-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b35&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-```cpp
-class Developer {
-private:
-    string name = "Trần Huy Khánh";
-    int age = 13;
-    vector<string> languages = {"C++", "Java", "Python"};
-    string motto = "From brute force to brain force!";
-    
-public:
-    void code() {
-        while (learning) {
-            practice++;
-            skills.improve();
-            if (problem.isSolved()) {
-                happiness++;
-            }
-        }
-    }
-};
-```
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=huykhanh222&theme=darkhub&no-frame=true&row=1&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 💻 Weekly Development Breakdown
+
+<div align="center">
+  
+[![Coding Time](https://github-readme-stats.vercel.app/api/wakatime?username=huykhanh222&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff)](https://github.com/anuraghazra/github-readme-stats)
+
+</div>
+
+---
+
+## 🌈 Contribution Snake
+
+<div align="center">
+  
+![Snake animation](https://raw.githubusercontent.com/huykhanh222/huykhanh222/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -95,8 +122,13 @@ public:
 <div align="center">
   
 **⭐ Star my repositories if you find them interesting!**
+**💬 Feel free to reach out for collaboration or just to say hi!**
+
+<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=huykhanh222&color=58a6ff&style=for-the-badge)
+[![Followers](https://img.shields.io/github/followers/huykhanh222?color=58a6ff&style=for-the-badge&logo=github)](https://github.com/huykhanh222)
+[![Stars](https://img.shields.io/github/stars/huykhanh222?color=58a6ff&style=for-the-badge&logo=github)](https://github.com/huykhanh222)
 
 </div>
 
