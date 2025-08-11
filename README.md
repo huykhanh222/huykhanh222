@@ -109,11 +109,29 @@
 
 ---
 
-## 🌈 Contribution Snake
+## 🐍 Contribution Snake
 
 <div align="center">
   
-![Snake animation](https://raw.githubusercontent.com/huykhanh222/huykhanh222/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/huykhanh222/huykhanh222/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/huykhanh222/huykhanh222/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/huykhanh222/huykhanh222/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+---
+
+## 🎨 Profile Highlights
+
+<div align="center">
+
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=huykhanh222&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&custom_title=Trần%20Huy%20Khánh's%20GitHub%20Stats&ring_color=58a6ff" />
+
+<img width="400" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=huykhanh222&theme=github_dark" />
+
+<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=huykhanh222&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B35&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=58A6FF&sideNums=58A6FF&dates=8B949E" />
 
 </div>
 
